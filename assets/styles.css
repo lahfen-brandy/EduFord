@@ -31,7 +31,7 @@ nav img {
     text-align: right;
 }
 
-.nav-links ul li {
+.nav-links ul li { display: block;
     list-style-type: none;
     display: inline-block;
     padding: 8px 12px;
@@ -101,10 +101,10 @@ nav img {
 
 
 /* --- fa styling --- */
-.nav .fa, span{
+.icons {
     display: none;
-    z-index: -10;
-    color: transparent;
+    /* z-index: -10; */
+    /* color: transparent; */
 }
 
 
@@ -131,7 +131,12 @@ nav img {
 
     }
 
-    .nav .fa, .material-icons-outlined {
+    .icons {
+        display: block;
+    }
+
+    .nav .fa,
+    .material-icons-outlined {
         display: block;
         color: #fff;
         margin: 10px;
