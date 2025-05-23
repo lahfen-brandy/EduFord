@@ -7,12 +7,15 @@
     <title>EduFord</title>
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="icon" href="./assets/images/icon.png">
+
     <!-- poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@100;200;300;400;600;700&display=swap"
         rel="stylesheet">
+
     <!-- font awsome bootstrap -->
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+
     <!-- google icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 
@@ -26,10 +29,10 @@
         <!-- nav bar -->
         <nav>
             <a href="index.html"><img src="./assets/images/logo.png"></a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
                 <div class="icons">
                     <i class="fa fa-times"></i>
-                    <span class="material-icons-outlined">
+                    <span class="material-icons-outlined" onclick="hideMenu()">
                         close
                     </span>
                 </div>
@@ -43,7 +46,7 @@
             </div>
             <div class="icons">
                 <i class="fa fa-bars"></i>
-                <span class="material-icons-outlined">
+                <span class="material-icons-outlined" onclick="showMenu()">
                     menu
                 </span>
             </div>
@@ -60,6 +63,40 @@
         </div>
     </section>
 
+
+
+    <!-- Course section -->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis porro voluptates quidem fuga
+                    mollitia, aspernatur unde provident. Illum quae, cumque est mollitia soluta suscipit deleniti
+                    praesentium? Optio id necessitatibus facilis.</p>
+            </div>
+          
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis porro voluptates quidem fuga
+                    mollitia, aspernatur unde provident. Illum quae, cumque est mollitia soluta suscipit deleniti
+                    praesentium? Optio id necessitatibus facilis.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis porro voluptates quidem fuga
+                    mollitia, aspernatur unde provident. Illum quae, cumque est mollitia soluta suscipit deleniti
+                    praesentium? Optio id necessitatibus facilis.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- script -->
+    <script src="./assets/script.js"></script>
 </body>
 
 </html>
