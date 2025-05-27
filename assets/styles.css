@@ -370,8 +370,55 @@ h3 {
     padding: 100px 0;
 }
 
-.cta h1{
+.cta h1 {
     color: #fff;
     margin-bottom: 40px;
     padding: 0;
+}
+
+/* CTA Media Querry */
+@media (max-width: 700px) {
+    .cta h1 {
+        font-size: 24px;
+    }
+}
+
+
+
+
+/* FOOTER SECTION */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+#footer_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 00;
+    gap: 10px;
+}
+
+.footer span {
+    color: #f44336;
+}
+
+#footer_img img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.tut_desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
