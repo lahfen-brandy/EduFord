@@ -5,7 +5,7 @@
 }
 
 /*---- HEADER SECTION -----*/
-.header {
+#header {
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('./images/banner.png');
@@ -156,7 +156,7 @@ nav img {
 
 
 /* ---- COURSE SECTION ------- */
-.course {
+#course {
     width: 80%;
     margin: auto;
     text-align: center;
@@ -306,7 +306,7 @@ h3 {
 
 
 /* TESTIMONIALS SECTION */
-.testimonial {
+#testimonial {
     width: 80%;
     margin: auto;
     padding-top: 100px;
