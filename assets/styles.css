@@ -306,7 +306,7 @@ h3 {
 
 
 /* TESTIMONIALS SECTION */
-.testimonial {
+#testimonial {
     width: 80%;
     margin: auto;
     padding-top: 100px;
