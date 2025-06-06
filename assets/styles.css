@@ -100,7 +100,7 @@ nav img {
 }
 
 
-/* --- fa styling --- */
+/* --- icon styling --- */
 .icons {
     display: none;
 }
@@ -135,7 +135,7 @@ nav img {
         display: block;
     }
 
-    .nav .fa,
+    .nav
     .material-icons-outlined {
         display: block;
         color: #fff;
